@@ -1,0 +1,118 @@
+.background {
+  border-radius: 20px;
+  margin: auto;
+  width: 800px;
+  height: auto;
+}
+
+.back {
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.play {
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  position: absolute;
+  width: 20px;
+  height: auto;
+  top: 20px;
+}
+
+.play:hover {
+  width: 25px;
+  height: auto;
+}
+
+.showTimeBox {
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 5px;
+  padding: 0px 15px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top: 70px;
+}
+
+.carrot_count_circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: solid 2px black;
+  border-radius: 50%;
+  background-color: lightcoral;
+  top: 120px;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.bug {
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+.bug:hover {
+  width: 60px;
+  height: auto;
+}
+
+.carrot {
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+.carrot:hover {
+  position: absolute;
+  width: 60px;
+  height: auto;
+}
+
+.lose_box {
+  position: absolute;
+  top: 60%;
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: aliceblue;
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.restartBtn {
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  width: 20px;
+  height: auto;
+  top: 20px;
+  opacity: 100%;
+}
+
+.restartBtn:hover {
+  width: 25px;
+  height: auto;
+}
+
+.lose_box_title {
+  font-size: 24px;
+  display: block;
+}
